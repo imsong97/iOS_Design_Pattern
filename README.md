@@ -20,3 +20,21 @@ C: Controller<br>
 참고: https://jiyeonlab.tistory.com/38<br>
 https://velog.io/@zooneon/iOS-MVC-%ED%8C%A8%ED%84%B4%EC%97%90-%EB%8C%80%ED%95%B4-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90
 <hr><br><br>
+<h1>iOS_MVVM</h1>
+Date: 2021.04.08
+<br>iOS MVVM패턴 학습, 간략하게 구현
+<br><br>
+<h3>MVVM 이란?</h3>
+M: Model (데이터, 비즈니스 로직)<br>
+V: View (UI, UIViewController)<br>
+VM: ViewModel(M과 V사이 연결, 모델과 뷰를 갱신하고 주요 로직 처리 담당)<br>
+<img src="https://user-images.githubusercontent.com/56987664/113953394-aea94080-9852-11eb-9b87-d5546ddc39ee.png">
+<li>독립적인 테스트 가능 (유지보수 용이)</li>
+<li>Controller의 코드양이 줄어듦</li>
+<li>VM설계의 어려움</li>
+<li>효과적인 구현을 위해서 RxSwift 사용</li>
+
+<br>
+참고: https://gwangyonglee.tistory.com/49<br>
+http://labs.brandi.co.kr/2018/02/21/kimjh.html<br>
+https://velog.io/@sso0022/iOS-MVC-%EC%99%80-MVVM
