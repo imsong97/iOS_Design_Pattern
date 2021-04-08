@@ -2,7 +2,7 @@
 Date: 2021.04.07
 <br>iOS MVC패턴 학습, 간략하게 구현
 
-<h2>MVC란?</h2>
+<h3>MVC란?</h3>
 M: Model &nbsp
 V: View &nbsp
 C: Controller<br>
@@ -16,3 +16,7 @@ C: Controller<br>
 <li>애플에서 제시를 했으며, Controller가 View와 Model의 중재자 역할을 함으로써 독립성을 부여</li>
 <li>개발 속도가 가장 빠른 패턴이지만, 유지보수가 어렵다는 단점</li>
 <li>View와 Controller간의 독립성은 확보하지 못한 한계가 있음</li>
+<br>
+참고: https://jiyeonlab.tistory.com/38<br>
+https://velog.io/@zooneon/iOS-MVC-%ED%8C%A8%ED%84%B4%EC%97%90-%EB%8C%80%ED%95%B4-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90
+<hr><br><br>
